@@ -11,7 +11,7 @@ using Task3;
 namespace Task3.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241123045256_CreateStudentTable")]
+    [Migration("20241123065552_CreateStudentTable")]
     partial class CreateStudentTable
     {
         /// <inheritdoc />
