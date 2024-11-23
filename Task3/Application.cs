@@ -26,6 +26,7 @@ namespace Task3
             student.CGPA = double.Parse(s[2]);
 
             _db.Students.Add(student);
+            _db.SaveChanges();
         }
         public string SelectPath()
         {
